@@ -251,9 +251,7 @@ h2 {
 #pie-circle.wrong { fill: var(--wrong); }
 #pie-slice {
   fill: var(--correct);
-  stroke: #ffffff; /* petit trait blanc entre les 2 parts */
-  stroke-width: 4;
-}
+} 
 
 .legend {
   display: flex;
