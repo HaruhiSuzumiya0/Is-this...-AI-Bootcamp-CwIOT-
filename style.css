@@ -71,6 +71,10 @@ h2 {
   line-height: 1.15;
 }
 
+#logo{
+  padding-top: 50px;
+}
+
 /* Les petits titres en majuscules ("QUESTION 1", "PER PERSON"...) */
 .label {
   font-size: 30px;
