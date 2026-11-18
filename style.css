@@ -6,9 +6,6 @@
   --line: #d4d4d4;      /* gris clair, pour les bordures */
   --soft: #f2f2f2;      /* gris très clair, pour le fond des petites cases */
 
-  --ai: #d62f2f;        /* AI = rouge */
-  --human: #1f9d3a;     /* Human = vert */
-
   /* Les couleurs du camembert. Pas rouge et vert, sinon on confond avec AI / Human */
   --correct: #2a6fd6;   /* bleu */
   --wrong: #c9c9c9;     /* gris */
@@ -210,9 +207,9 @@ h2 {
   font: inherit;
   font-size: 72px;
   font-weight: 700;
+  background: var(--text);
 }
-.choice.ai { background: var(--ai); }
-.choice.human { background: var(--human); }
+.choice.ai { background: var(--text); font-family: 'Times New Roman', Times, serif; font-style: italic;}
 
 
 /* Écrans 3 et 5 : les questions de groupe */
