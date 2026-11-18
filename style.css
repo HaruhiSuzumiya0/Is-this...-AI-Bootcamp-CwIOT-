@@ -188,9 +188,9 @@ h2 {
   color: #ffffff;
   padding: 8px 30px;
   border-radius: 999px;
+  background: var(--text);
 }
-.chip.ai { background: var(--ai); }
-.chip.human { background: var(--human); }
+.chip.ai { font-family: 'Times New Roman', Times, serif; font-style: italic; }
 
 /* Les 2 gros boutons AI et Human */
 .choices {

@@ -181,7 +181,7 @@ function startQuiz(dataset) {
 
 function showQuiz() {
     let step = state.steps[state.step];
-    quizWho.textContent = "Turn " + step.turn + " | Person " + step.person;
+    quizWho.textContent = "Turn " + step.turn + " | Participant " + step.person;
     quizMedia.replaceChildren(createMedia(state.dataset.items[step.media - 1], false));
 
     // Les réponses précédentes, mais seulement pour CE media
