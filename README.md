@@ -1,3 +1,5 @@
+# is this... AI?
+
 A = 100% Human, B = 100% AI, C = 50/50
 
 You can change the medias themselves, the number of media, the number of people, the passing order.
